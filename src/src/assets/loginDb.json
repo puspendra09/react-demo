@@ -1,17 +1,20 @@
 [ 
-  { 
+  {
+  "userId": "1",
   "email":"admin@mail.com", 
-  "password":"admin@123", 
+  "password":"admin@12345", 
   "type":"admin" 
   }, 
   { 
-  "email":"ram@mail.com", 
+  "userId": "2",
+  "email":"ram@gmail.com", 
   "password":"ram@1234", 
   "type":"user" 
   }, 
-  { 
+  {
+  "userId": "3",
   "email":"shyam@mail.com", 
-  "password":"shyam@123", 
+  "password":"shyam@1234", 
   "type":"user" 
   } 
 ] 

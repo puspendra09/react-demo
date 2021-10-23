@@ -8,8 +8,9 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import loginDb from "../assets/loginDb.json"
+import loginDb from "../../assets/loginDb.json"
 import { useHistory } from "react-router-dom";
+import { Header } from "../header";
 
 const theme = createTheme();
 
@@ -49,6 +50,7 @@ function Login(props) {
 
   return (
     <React.Fragment>
+      <Header auth={false} />
       <ThemeProvider theme={theme}>
         <Container component="main" maxWidth="xs">
           <CssBaseline />
