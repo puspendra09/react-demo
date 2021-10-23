@@ -1,0 +1,21 @@
+[ 
+  {
+  "userId": "1",
+  "email":"admin@gmail.com", 
+  "password":"admin@12345", 
+  "type":"admin" 
+  }, 
+  {
+  "userId": "2",
+  "email":"ram@gmail.com", 
+  "password":"ram@1234", 
+  "type":"user" 
+  }, 
+  {
+  "userId": "3",
+  "email":"shyam@gmail.com", 
+  "password":"shyam@123", 
+  "type":"user" 
+  } 
+] 
+  
